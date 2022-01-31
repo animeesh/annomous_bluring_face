@@ -1,0 +1,31 @@
+So to install make in windows first we need to install mingw ie. Alternate of (apt-get) in linux
+
+ 
+With this below link we can be able to download mingw32
+
+https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbXdoVmEzdkhpN0M3eWcwakhSNWQ4YWJ5UTljQXxBQ3Jtc0trT1FZSUlBeGdDQ2M5VXBqaTNwd2t2ZTZmMUlZT1R1ZFRSenpnZ045ZTRWOHFGSVU3dDhQcDVneFVzeFJNUkt2U1BVSklENkxxRjFaVGY4QWVPajBpZmpxZVpXSnlsSVZQeUp5blJXUi0yZy1md3hMOA&q=http%3A%2F%2Fwww.mingw.org%2Fwiki%2Fgetting_started%23toc5
+
+
+
+Click the exe folder 
+Keep the default location then uncheck the also install support for the graphical user
+Click on continue wait till it get 100 % 
+
+Open the system environment for path and give the bin path of the downloaded minnow folder.
+
+Open the cmd and type mingw-get you should get a prompt 
+Again on cmd type mingw-get install mingw32-make
+
+It will install make version 3.82 in your system. 
+
+
+
+To 
+Verify type mingw32-make 
+
+You should get. 
+
+Mingw32-make: ***No target specified and no makefile found. Stop
+	
+
+mingw32-make is successfully install in your system which is same as make in linux
